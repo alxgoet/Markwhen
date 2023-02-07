@@ -74,12 +74,12 @@ group Seminar #Seminar
 Feb 12: Schulung #alx #Dani
  Mar 04: AAT Ulm #alx #Dani #Jochen
  Apr 15 - Apr 16: AAT Rv #alx #Dani #Jochen
- Sep 06: Sommerprogramm 14:00-15:30 
+ Sep 06: Sommerprogramm 14:00-15:30 #Alx #Dani
 endGroup
 group Hütte #Huette
-Mar 31 - Apr 02: Hütte Jiu Jug
+Mar 31 - Apr 02: Hütte Jiu Jug #alx #Dani
 Jun 30 - Jul 02: Hütte Maze
-Oct 13 - Oct 15: Hütte Jiu Jug
+Oct 13 - Oct 15: Hütte Jiu Jug #alx #Dani
 endGroup
 group Training
 endGroup
@@ -87,15 +87,19 @@ endSection
 
 section HOME #HOME
 group LAN #LAN
-May 05 - May 7: Lan-Party
+May 05 - May 7: Lan-Party #alx
 before 4w: Prepare
 endGroup
 endSection
 
 section Friends
+group alx #alx
+Aug 14 - Aug 21: 6d Urlaub
+endGroup
 group Andre #Andre
 Jul 03 - Jul 23: Andre Prüfung
-Jul 24 - Oct 04: Andre Ferien 
+//Jul 24 - Oct 04: Andre Ferien 
+Oct 04 - Dec 24: Vorlesungen
 endGroup
 group Fedja #Fedja
 Jul 10 - Jul 30: Fedja Urlaubssperre 
@@ -103,7 +107,8 @@ Aug 21 - Sep 10: Fedja Urlaubssperre
 endGroup
 group Roman #Roman
 Jul 24 - Aug 13: Roman Prüfung 
-Aug 14 - Oct 15: Roman Ferien
+//Aug 14 - Oct 15: Roman Ferien
+Oct 10 - Dec 24: Vorlesungen
 endGroup
 group Danie #Danie
 endGroup
