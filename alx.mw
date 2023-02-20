@@ -1,53 +1,53 @@
 title: My Calender
 //https://markwhen.com/#from=https://raw.githubusercontent.com/alxgoet/Markwhen/main/alx.mw
 section Sarissa #Sarissa
-section Projects #Project
-group IMU1 #IMU1 #Pulsonix
- Jan 17: Abholung Bauteile 
- Jan 18 - Mar 5: Fertigung
- Mar 06 - Mar 17: PCB Auslieferung 
-endGroup
-group US1 #US1
- Now/2 weeks: Entwicklung #US1
- 11 weeks: Hestellung #US1
-endGroup
-endSection
+  section Projects #Project
+    group IMU1 #IMU1 #Pulsonix
+      Jan 17: Abholung Bauteile 
+      Jan 18 - Mar 5: Fertigung
+      Mar 06 - Mar 17: PCB Auslieferung 
+    endGroup
+    group US1 #US1
+      Now/2 weeks: Entwicklung #US1
+      11 weeks: Hestellung #US1
+    endGroup
+  endSection
 
-section Messen #Messen
-group Battery Show
- May 23 - May 25: Battery Show
-endGroup
-endSection
 
-section Frei #Frei
-group Feiertag #Feiertage
-04/07/2023: Karfreitag
-04/10/2023: Ostermontag
-05/01/2023: Tag der Arbeit
-05/18/2023: Christi Himmelfahrt
-05/29/2023: Pfingstmontag
-06/08/2023: Fronleichnam
-10/03/2023: Tag der deutschen Einheit
-11/01/2023: Allerheiligen
-12/25/2023: Weihnachtstag
-12/26/2023: Zweiter Weihnachtstag
-endGroup
-group Firmenurlaub
-01/02/2023 - 01/06/2023: 4d
-05/19/2023: 1d
-06/09/2023: 1d
-10/02/2023: 1d
-12/27/2023 - 12/29/2023: 3d
-endGroup
+  section Messen #Messen
+    group Battery Show
+      May 23 - May 25: Battery Show
+    endGroup
+  endSection
 
-group Urlaub #Urlaub
-04/06/2023: 1d
-04/11/2023 - 04/14/2023: 4d
-05/30/2023 - 06/02/2023: 4d
-08/14/2023 - 08/21/2023: 6d
-08/22/2023 - 08/25/2023: 4d
-endGroup
-endSection
+  section Frei #Frei
+    group Feiertag #Feiertage
+      04/07/2023: Karfreitag
+      04/10/2023: Ostermontag
+      05/01/2023: Tag der Arbeit
+      05/18/2023: Christi Himmelfahrt
+      05/29/2023: Pfingstmontag
+      06/08/2023: Fronleichnam
+      10/03/2023: Tag der deutschen Einheit
+      11/01/2023: Allerheiligen
+      12/25/2023: Weihnachtstag
+      12/26/2023: Zweiter Weihnachtstag
+    endGroup
+    group Firmenurlaub 
+      01/02/2023 - 01/06/2023: 4d
+      05/19/2023: 1d
+      06/09/2023: 1d
+      10/02/2023: 1d
+      12/27/2023 - 12/29/2023: 3d
+    endGroup
+    group Urlaub #Urlaub
+      04/06/2023: 1d
+      04/11/2023 - 04/14/2023: 4d
+      05/30/2023 - 06/02/2023: 4d
+      08/14/2023 - 08/21/2023: 6d
+      08/22/2023 - 08/25/2023: 4d
+    endGroup
+  endSection
 endSection
 
 section own #own
@@ -58,62 +58,89 @@ Section Family #Family
 endSection
 
 Section Ferien #Ferien
-Apr 11 - Apr 15: Osterferien
-May 30 - Jun 09: Pfingstferien
-Jul 27 - Sep 09: Sommerferien
-Oct 30 - Nov 03: Herbstferien
-Dec 23 - Jan 05: Weihnachtsferien
+  Apr 11 - Apr 15: Osterferien
+  May 30 - Jun 09: Pfingstferien
+  Jul 27 - Sep 09: Sommerferien
+  Oct 30 - Nov 03: Herbstferien
+  Dec 23 - Jan 05: Weihnachtsferien
 endSection
 
 section Dani #Dani
-apr 24 - may 04: Prüfungszeitraum
-Sep 01 - 3 year: Studium
+  apr 24 - may 04: Prüfungszeitraum
+  Sep 01 - 3 year: Studium
 endSection
 
 section JCW #JCW
-group Seminar #Seminar
-Feb 12: Schulung #alx #Dani
- Mar 04: AAT Ulm #alx #Dani #Jochen
- Apr 15 - Apr 16: AAT Rv #alx #Dani #Jochen
- Sep 06: Sommerprogramm 14:00-15:30 #Alx #Dani
-endGroup
-group Hütte #Huette
-Mar 31 - Apr 02: Hütte Jiu Jug #alx #Dani
-Jun 30 - Jul 02: Hütte Maze
-Oct 13 - Oct 15: Hütte Jiu Jug #alx #Dani
-endGroup
-group Training
-endGroup
+  group Seminar #Seminar
+    Feb 12: Schulung #alx #Dani
+    group AAT Ulm
+      Mar 04: AAT Ulm #alx #Dani #Jochen
+        before 3d:Prepare #alx
+        before 1d:Plan #alx #Jochen
+    endGroup
+    group ?Schulklasse_1?
+      13 Mar: 08:00 -16:00
+        before 1w: ?Prepare?
+    endGroup
+    group ?Schulklasse_1? #alx
+      27 Mar: 08:00 -16:00
+        before 1w: ?Prepare?
+    endGroup
+    group AAT RV
+      Apr 15 - Apr 16: AAT Rv #alx #Dani #Jochen
+        before 1w:Prepare 
+        before 1w:Plan
+    endGroup
+    group Sommerprogramm
+      Sep 06: 14:00-15:30 #alx #Dani
+        before 1w:Prepare
+        before 1w:Plan
+    endGroup
+  endGroup
+  group Hütte #Huette
+    group 31.03-02.04
+      Mar 31 - Apr 02: Hütte Jiu Jug #alx #Dani
+        before 2w: Prepare #alx
+        before 1W: Plan #alx
+    endGroup
+    Jun 30 - Jul 02: Maze #Maze
+    group 13.10-15.10
+      Oct 13 - Oct 15: Hütte Jiu Jug #alx #Dani
+        before 2w: Prepare #alx
+        before 1W: Plan #alx
+  endGroup
+  group Training
+  endGroup
 endSection
 
 section HOME #HOME
-group LAN #LAN
-May 05 - May 7: Lan-Party #alx
-before 4w: Prepare
-endGroup
+  group LAN #LAN
+    May 05 - May 7: Lan-Party #alx
+      before 4w: Prepare
+  endGroup
 endSection
 
 section Friends
-group alx #alx
-Jun 12 - Aug 12: Work 
-//Aug 14 - Aug 21: 6d Urlaub
-Aug 28 - Oct 30: Work
-endGroup
-group Andre #Andre
-Jul 03 - Jul 23: Andre Prüfung
-//Jul 24 - Oct 04: Andre Ferien 
-Oct 04 - Dec 24: Vorlesungen
-endGroup
-group Fedja #Fedja
-Jul 10 - Jul 30: Fedja Urlaubssperre 
-Aug 21 - Sep 10: Fedja Urlaubssperre 
-endGroup
-group Roman #Roman
-Jul 24 - Aug 13: Roman Prüfung 
-//Aug 14 - Oct 15: Roman Ferien
-Oct 10 - Dec 24: Vorlesungen
-endGroup
-group Danie #Danie
-endGroup
+  group alx #alx
+    Jun 12 - Aug 12: Work 
+    //Aug 14 - Aug 21: 6d Urlaub
+    Aug 28 - Oct 30: Work
+  endGroup
+  group Andre #Andre
+    Jul 03 - Jul 23: Andre Prüfung
+    //Jul 24 - Oct 04: Andre Ferien 
+    Oct 04 - Dec 24: Vorlesungen
+  endGroup
+  group Fedja #Fedja
+    Jul 10 - Jul 30: Fedja Urlaubssperre 
+    Aug 21 - Sep 10: Fedja Urlaubssperre 
+  endGroup
+  group Roman #Roman
+    Jul 24 - Aug 13: Roman Prüfung 
+    //Aug 14 - Oct 15: Roman Ferien
+    Oct 10 - Dec 24: Vorlesungen
+  endGroup
+  group Danie #Danie
+  endGroup
 endSection
 
