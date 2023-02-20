@@ -78,36 +78,36 @@ section JCW #JCW
         before 3d:Prepare #alx
         before 1d:Plan #alx #Jochen
     endGroup
-    group ?Schulklasse_1?
+    group ?Schulklasse_1? #alx #Micha
       13 Mar: 08:00 -16:00
-        before 1w: ?Prepare?
+        before 7w: ?Prepare?
     endGroup
-    group ?Schulklasse_1? #alx
+    group ?Schulklasse_1? #alx #Micha
       27 Mar: 08:00 -16:00
-        before 1w: ?Prepare?
+        before 7w: ?Prepare?
     endGroup
     group AAT RV
       Apr 15 - Apr 16: AAT Rv #alx #Dani #Jochen
-        before 1w:Prepare 
-        before 1w:Plan
+        before 7w:Prepare 
+        before 7w:Plan
     endGroup
     group Sommerprogramm
       Sep 06: 14:00-15:30 #alx #Dani
-        before 1w:Prepare
-        before 1w:Plan
+        before 7d:Prepare
+        before 7d:Plan
     endGroup
   endGroup
   group Hütte #Huette
     group 31.03-02.04
-      Mar 31 - Apr 02: Hütte Jiu Jug #alx #Dani
-        before 2w: Prepare #alx
-        before 1W: Plan #alx
+      Mar 31 - Apr 02: Jiu Jug #alx #Dani
+        before 14d: Prepare #alx
+        before 7d: Plan #alx
     endGroup
     Jun 30 - Jul 02: Maze #Maze
     group 13.10-15.10
-      Oct 13 - Oct 15: Hütte Jiu Jug #alx #Dani
-        before 2w: Prepare #alx
-        before 1W: Plan #alx
+      Oct 13 - Oct 15: Jiu Jug #alx #Dani
+        before 14d: Prepare #alx
+        before 7d: Plan #alx
     endGroup
   endGroup
   group Training
