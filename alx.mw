@@ -80,11 +80,11 @@ section JCW #JCW
     endGroup
     group ?Schulklasse_1? #alx #Micha
       13 Mar: 08:00 -16:00
-        before 7w: ?Prepare?
+        before 7d: ?Prepare?
     endGroup
     group ?Schulklasse_1? #alx #Micha
       27 Mar: 08:00 -16:00
-        before 7w: ?Prepare?
+        before 7d: ?Prepare?
     endGroup
     group AAT RV
       Apr 15 - Apr 16: AAT Rv #alx #Dani #Jochen
