@@ -121,25 +121,29 @@ section HOME #HOME
   endGroup
 endSection
 
-section Friends
+section Friends #friends
   group alx #alx
-    Jun 12 - Aug 12: Work 
-    //Aug 14 - Aug 21: 6d Urlaub
-    Aug 28 - Oct 30: Work
+    Jun 12 - Aug 12: Work #belegt
+    Aug 14 - Aug 25: 10d Urlaub #frei
+    Aug 28 - Oct 30: Work #belegt
   endGroup
   group Andre #Andre
-    Jul 03 - Jul 23: Andre Prüfung
-    //Jul 24 - Oct 04: Andre Ferien 
-    Oct 04 - Dec 24: Vorlesungen
+    Jul 03 - Jul 23: Andre Prüfung #belegt
+    Jul 24 - Oct 04: Andre Ferien #frei
+    Oct 04 - Dec 24: Vorlesungen #belegt
   endGroup
   group Fedja #Fedja
-    Jul 10 - Jul 30: Fedja Urlaubssperre 
-    Aug 21 - Sep 10: Fedja Urlaubssperre 
+    Jul 10 - Jul 29: Fedja Urlaubssperre #belegt
+    Jul 31 - Aug 19: Urlaub #frei
+    Aug 21 - Sep 10: Fedja Urlaubssperre #belegt
   endGroup
   group Roman #Roman
-    Jul 24 - Aug 13: Roman Prüfung 
-    //Aug 14 - Oct 15: Roman Ferien
-    Oct 10 - Dec 24: Vorlesungen
+    //Jul 24 - Aug 13: Roman Prüfung #belegt
+    Aug 14 - Aug 19: Mündlich 1Woche #vill
+    Aug 21 - Aug 26: Münldich 2Woche #vill
+    Aug 28 - Sep 02: Mündlich 3Woche #vill
+    Sep 04 - Oct 15: Roman Ferien #frei
+    //Oct 10 - Dec 24: Vorlesungen #belegt
   endGroup
   group Danie #Danie
     Aug 07 - Aug 19: Urlaub #frei
